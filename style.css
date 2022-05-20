@@ -64,7 +64,7 @@ main {
 }
 
 .player--active {
-  background-color: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.4);
 }
 .player--active .name {
   font-weight: 700;
@@ -158,7 +158,12 @@ main {
 }
 
 .player--winner {
-  background-color: #2f2f2f;
+  background: linear-gradient(
+    to bottom right,
+    rgb(255, 252, 78),
+    rgb(201, 201, 201),
+    rgb(82, 82, 255)
+  );
 }
 
 .player--winner .name {
