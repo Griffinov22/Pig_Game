@@ -159,12 +159,24 @@ main {
 }
 
 .player--winner {
-  background: linear-gradient(
-    to bottom right,
-    rgb(255, 252, 78),
-    rgb(201, 201, 201),
-    rgb(82, 82, 255)
-  );
+  animation-name: cool-background;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  /* transition: all 5s; */
+}
+@keyframes cool-background {
+  0% {
+    background: initial;
+  }
+  50% {
+    background: lightcoral;
+  }
+  75% {
+    background: greenyellow;
+  }
+  100% {
+    background: rgba(0, 0, 0, 0.8);
+  }
 }
 
 .player--winner .name {
