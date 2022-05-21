@@ -64,7 +64,8 @@ main {
 }
 
 .player--active {
-  background: rgba(255, 255, 255, 0.4);
+  /* background: rgba(255, 255, 255, 0.4); */
+  background: lemonchiffon;
 }
 .player--active .name {
   font-weight: 700;
