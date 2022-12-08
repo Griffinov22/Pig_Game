@@ -64,32 +64,17 @@ main {
     padding: 1rem;
   }
 }
-@media (max-width: 530px) {
-  .player {
-    padding: 1rem 0;
-  }
-}
 
 /* ELEMENTS */
 .name {
   position: relative;
-  font-size: 4rem;
+  font-size: clamp(2rem, -0.3902rem + 5.8537vw, 4rem);
   text-transform: uppercase;
   letter-spacing: 1px;
   word-spacing: 2px;
   font-weight: 300;
   margin-bottom: 1rem;
   white-space: nowrap;
-}
-@media (max-width: 500px) {
-  .name {
-    font-size: 3rem;
-  }
-}
-@media (max-width: 380px) {
-  .name {
-    font-size: 2rem;
-  }
 }
 
 .score {
@@ -133,7 +118,7 @@ main {
 .current-label {
   text-transform: uppercase;
   margin-bottom: 1rem;
-  font-size: 1.7rem;
+  font-size: clamp(1.3rem, 1.1809rem + 0.4885vw, 1.7rem);
   color: #ddd;
 }
 @media (max-width: 470px) {
@@ -191,7 +176,7 @@ main {
 }
 @media (max-width: 930px) {
   .btn--new {
-    top: 40%;
+    top: 50%;
     transform: translate(-50%, -50%);
   }
 }
@@ -201,7 +186,7 @@ main {
 @media (max-width: 850px) {
   .btn--roll {
     transform: translate(-50%, -50%);
-    top: 50%;
+    top: 60%;
   }
 }
 .btn--hold {
@@ -210,7 +195,7 @@ main {
 @media (max-width: 850px) {
   .btn--hold {
     transform: translate(-50%, -50%);
-    top: 60%;
+    top: 70%;
   }
 }
 
